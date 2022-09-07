@@ -7,5 +7,8 @@ public class antTestClass {
     {
         return[select name, phone from Contact];
     }
-	
+	 public static list<Contact> addMe1()
+    {
+        return[select name, phone,fax from Contact];
+    }
 }
