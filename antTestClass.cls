@@ -11,4 +11,8 @@ public class antTestClass {
     {
         return[select name, phone,fax from Contact];
     }
+	public static list<Contact> addMe12()
+    {
+        return[select name, phone from Contact];
+    }
 }
